@@ -1,0 +1,51 @@
+.sticky{
+    position:absolute;
+    width:240px; 
+    height:240px; /*if no height, the sticky will grow with the text*/
+    padding:5px;
+    background-color:lightyellow;
+    border:1px solid black;
+    cursor:move; /*mouseover cursor indicates the sticky can be moved */
+}
+
+#stickyContent{
+    border: 1px solid #888;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: green;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.4s ease 0s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logout{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ed3330;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.4s ease 0s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
